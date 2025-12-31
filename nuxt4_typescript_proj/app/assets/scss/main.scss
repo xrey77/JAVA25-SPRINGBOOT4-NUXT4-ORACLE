@@ -1,0 +1,130 @@
+body {
+  overflow: auto !important;
+  scrollbar-color: #020101 #090c0d m !important;
+  scrollbar-track-color: rgb(13, 8, 8) !important;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.footer-size {
+    background-color: rgb(244, 237, 237) !important;
+    height: 30px !important;
+    font-size: 12px;
+    padding: 5px !important;
+    bottom: -20px !important;
+}
+
+#offcanvasWithBothOptions {
+    width: 50% !important;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.userpic {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px !important;
+}
+.about-bottom {
+  margin-bottom: 60vh !important;
+}
+.about-img {
+  width: 100% !important;
+  height: 48vh !important;
+  border-radius: 20px !important;
+}
+.about-text {
+  text-align: justify !important;
+}
+
+.contact-img {
+  width: 100% !important;
+  height: 50vh !important;
+  border-radius: 20px !important;
+}
+
+.product-size {
+    max-width: 400px !important;
+    height: 300px !important;
+}
+
+.embossed-text {
+    margin-top: -80px !important;
+    color: #eaf0a0; /* Text color should match or be very close to the background */
+    text-shadow:
+        -1px -1px 0px rgba(255, 255, 255, 0.7), /* Light highlight (top-left) */
+        1px 1px 0px rgba(0, 0, 0, 0.5);      /* Dark shadow (bottom-right) */
+  }
+
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border-radius: 60% !important;
+    cursor: pointer;
+    background-color: #6290d5;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.9;
+    transition: opacity .6s ease;
+  }
+
+  .card-text {
+    height: 15vh !important;
+  }
+  .cardx {
+    margin-bottom: -40px !important;
+  }
+  .pagination {
+    margin-top: -10px !important;    
+  }
+  .carousel-inner .carousel-item img {
+    max-width: 100% !important;
+    height: 480px;
+    object-fit: cover;
+  }
+  
+  .w-90 {
+    width: 98% !important;
+    margin: 0 auto;
+  }
+
+.text-yellow {
+ color: yellow;
+}
+.check-box {
+  border-width: 2px !important;
+  border-color: black !important;
+}
+@media (max-width: 991.98px) { 
+  .about-img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 20px !important;
+  }
+  .about-bottom {
+    margin-bottom: 100vh !important;
+  }
+  
+  .contact-img {
+    margin-top: 5vh !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 20px !important;
+  }
+  
+ }

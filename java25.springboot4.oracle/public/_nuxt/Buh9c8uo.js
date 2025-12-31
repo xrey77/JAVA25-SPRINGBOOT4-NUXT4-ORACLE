@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"#entry";const r={},c={class:"text-center mt-3 footer-size mb-3"};function s(n,_){return t(),o("div",c,"Copyright 2025, All rights reserved. World Taekwondo")}const d=e(r,[["render",s]]);export{d as default};

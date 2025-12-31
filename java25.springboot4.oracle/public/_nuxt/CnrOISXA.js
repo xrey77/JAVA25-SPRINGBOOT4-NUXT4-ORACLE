@@ -1,0 +1,1 @@
+import{_ as o}from"./Cf5WdTsb.js";import{u as t}from"./BGUvDSmD.js";import{c as r,o as a,b as s,s as m}from"#entry";import"./BMjfm1Oh.js";import"./BvxTx_lq.js";import"./ngrFHoWO.js";const f={__name:"default",setup(l){return t({title:"World Taekwondo"}),(e,n)=>(a(),r("div",null,[s(o),m(e.$slots,"default")]))}};export{f as default};
